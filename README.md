@@ -31,6 +31,7 @@ samples, guidance on mobile development, and a full API reference.
 - ![image](https://github.com/AriasSuarezDemianAlexander/RutaPag-Arias0315/assets/143743142/3e31ca5a-b63e-4447-a272-466af5674942)
 
 ## Capturas del Trabajo (ACT 14 Rutas diseños)
+-![image](https://github.com/AriasSuarezDemianAlexander/P13_router_arias0315/assets/143743142/b7ba4156-0691-4dc8-9d8f-75d0cd668e1e)
 -![image](https://github.com/AriasSuarezDemianAlexander/P13_router_arias0315/assets/143743142/92e1ffc7-630c-45f6-8729-170cc4c67a4c)
 -![image](https://github.com/AriasSuarezDemianAlexander/P13_router_arias0315/assets/143743142/a1e710db-c332-4b32-a0d7-6fd562250423)
 
