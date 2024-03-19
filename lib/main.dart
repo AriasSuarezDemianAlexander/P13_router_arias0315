@@ -1,43 +1,24 @@
 import 'package:flutter/material.dart';
+import 'package:arias0315/pantalla2_0315.dart';
+import 'pantalla1_0315.dart';
+import 'pantallainicial_0315.dart';
 
-void main() => runApp(MyApp());
+void main() {
+  runApp(const PageRouter());
+}
 
-class MyApp extends StatelessWidget {
-  const MyApp({super.key});
-  // This widget is the root of your application.
+class PageRouter extends StatelessWidget {
+  const PageRouter({super.key});
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      // Application name
-      title: 'Flutter Hello World',
-      // Application theme data, you can set the colors for the application as
-      // you want
-      theme: ThemeData(
-        // useMaterial3: false,
-        primarySwatch: Colors.blue,
-      ),
-      // A widget which will be started on application startup
-      home: MyHomePage(title: 'Flutter Demo Home Page'),
-    );
-  }
-}
-
-class MyHomePage extends StatelessWidget {
-  final String title;
-  const MyHomePage({super.key, required this.title});  
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        // The title text which will be shown on the action bar
-        title: Text(title),
-      ),
-      body: Center(
-        child: Text(
-          'Hello, World!',
-        ),
-      ),
+      debugShowCheckedModeBanner: false,
+      initialRoute: '/',
+      routes: {
+        '/': (context) => const pantallaInicial_0315(),
+        '/pantalla1_0315': (context) => const pantalla1_0315(),
+        '/pantalla2_0315': (context) => const pantalla2_0315(),
+      },
     );
   }
 }
